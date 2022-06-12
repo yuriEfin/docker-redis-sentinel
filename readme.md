@@ -5,7 +5,20 @@
 1) install package 
  `composer req jamescauwelier/psredis`
 
-2) add to application config 
+2) create interface
+
+```php
+
+namespace app\components\redis;
+
+interface RedisSentinelInterface
+{
+}
+
+```
+
+3) add to application config 
+
 
 ```php
 // main.php 
