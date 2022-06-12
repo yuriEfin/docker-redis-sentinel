@@ -39,6 +39,11 @@
         },
     ],
     ...
+    'components' => [
+        'redis' => [
+            'class' => RedisSentinelInterface::class,
+        ],
+    ],
 ```
 
 ```php
