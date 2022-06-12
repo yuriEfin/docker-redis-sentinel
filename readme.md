@@ -79,3 +79,7 @@ networks:
     external:
       name: microservices_net
 ```
+
+# Docker scale
+
+`docker-compose up --detach --scale redis-master=1 --scale redis-replica=4 --scale redis-sentinel=3`
