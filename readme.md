@@ -29,15 +29,15 @@ interface RedisSentinelInterface
             $sentinels = [
                 [
                     // @TODO - FROM ENV
-                    'h' => '172.21.0.1',
+                    'h' => 'rerdis-sentinel',
                     'p' => 26379,
                 ],
                 [
-                    'h' => '172.21.0.1',
+                    'h' => 'rerdis-sentinel',
                     'p' => 26380,
                 ],
                 [
-                    'h' => '172.21.0.1',
+                    'h' => 'rerdis-sentinel',
                     'p' => 26381,
                 
                 ],
